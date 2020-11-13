@@ -160,7 +160,7 @@ button.toggle {
     letter-spacing: 0.4px;
     text-align: center;
     color: #000000;
-	margin-bottom:20px;
+	margin-bottom:3px;
 }
 .tophospital-grids{
 	margin-bottom:20px;
@@ -238,7 +238,7 @@ button.toggle {
 
 .filter-hospitalfor-heading {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     line-height: 1.64;
     letter-spacing: 0.56px;
@@ -280,6 +280,7 @@ border-radius: 50%;
 }
 .selected-cities{
 	padding:0;
+	margin-top:12px;
 }
 .selected-cities li{
 	text-align: left;
@@ -314,6 +315,11 @@ border-radius: 50%;
     margin-top: -25px;
     padding: 30px;
 }
+.hospfor-grid {
+    text-align: center;
+    margin-top: -25px;
+    padding: 20px 0px 0px 5px;
+}
 .check-hospital{
 	margin-top:5px;
 	text-align:center;
@@ -337,7 +343,7 @@ border-radius: 50%;
     letter-spacing: 0.4px;
     text-align: center;
     color: #000000;
-	margin-bottom:20px;
+	margin-bottom:3px;
 }
 
 .pricing-name{
@@ -436,7 +442,7 @@ border-radius: 50%;
     letter-spacing: 0.4px;
     text-align: center;
     color: #000000;
-	margin-bottom:20px;
+	margin-bottom:3px;
 }
 .doctors-grids{
 	margin-bottom:20px;
@@ -491,7 +497,7 @@ border-radius: 50%;
 }
 .check-doctors-heading{
 	 font-size: 14px;
-     font-weight: 500;
+     font-weight: 600;
      line-height: 1.64;
      letter-spacing: 0.56px;
      text-align: center;
@@ -1035,10 +1041,32 @@ margin-left: 16px;
     filter: grayscale(100%);
     opacity: 0.5;
 }
+.selec-city-btn{
+	margin-top: 0px;
+	font-size: 15px;
+	margin-bottom: -3px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: 1.08px;
+	text-align: center;
+	color: #868686;
+}
 
 @media only screen and (max-width:767px){
+.selec-city-btn{
+	margin-top: 6px;
+	font-size: 15px;
+	margin-bottom: -3px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.61;
+	letter-spacing: 1.08px;
+	text-align: center;
+	color: #868686;
+}	
 .services-column{height:378px;
 width:265px;}
+.mob-no-padding{padding:0;}
 .mob-height{height:86px;}
 .mob-listing-one{margin-top: 5px;}
 .mob-listing-two{margin-top: -22px;}	 

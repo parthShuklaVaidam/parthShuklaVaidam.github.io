@@ -472,9 +472,9 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-xs-12 col-md-offset-3 search-column">
-          <h1 class="banner-heading">Plan High Quality and Affordable Treatment in India or Turkey</h1>
+          <h1 class="banner-heading">Plan High Quality and Affordable Treatment</h1>
           <div class="searchbar">
-            <input type="text" class="searchTerm" id="search_find_new" placeholder="Search treatment, doctor, hospital or disease">
+            <input type="text" class="searchTerm" id="search_find_new" placeholder="Search by disease, procedure, doctor or hospital name">
             <div id="search-suggestionsblock" style="display:none;">24 results found for <b>kn</b><br><b><br>Tags related to kn (<a href="https://www.vaidam.com/tag-search/kn/india"> 20</a>) <br></b><ul><a href="https://www.vaidam.com/search/knee-replacement/india"><li>Knee replacement</li></a><a href="https://www.vaidam.com/search/total-knee-replacement-tkr/india"><li>Total knee replacement - TKR</li></a><a href="https://www.vaidam.com/search/partial-knee-replacement/india"><li>Partial knee replacement</li></a><a href="https://www.vaidam.com/search/knee-arthroscopy/india"><li>Knee Arthroscopy</li></a><a href="https://www.vaidam.com/search/knee-osteotomy/india"><li>Knee Osteotomy</li></a><a href="https://www.vaidam.com/search/gamma-knife/india"><li>Gamma Knife</li></a><a href="https://www.vaidam.com/search/cyber-knife/india"><li>Cyber Knife</li></a><a href="https://www.vaidam.com/search/congenital-dislocation-of-the-knee-cdk/india"><li>Congenital dislocation of the knee(CDK)</li></a><a href="https://www.vaidam.com/search/knocked-knee/india"><li>Knocked knee</li></a><a href="https://www.vaidam.com/search/unicondylar-knee-replacement/india"><li>Unicondylar Knee Replacement</li></a><a href="https://www.vaidam.com/search/high-flex-knee-replacement/india"><li>High Flex Knee Replacement</li></a><a href="https://www.vaidam.com/search/minimally-invasive-knee-replacement-surgery/india"><li>Minimally Invasive Knee Replacement Surgery</li></a><a href="https://www.vaidam.com/search/revision-single-knee-replacement/india"><li>Revision Single Knee Replacement</li></a><a href="https://www.vaidam.com/search/carcinoma-of-unknown-primary-cup-treatment/india"><li>Carcinoma of Unknown Primary (CUP) Treatment</li></a><a href="https://www.vaidam.com/search/cyberknife-treatment/india"><li>CyberKnife Treatment</li></a><a href="https://www.vaidam.com/search/knee-meniscectomy/india"><li>Knee Meniscectomy</li></a><a href="https://www.vaidam.com/search/knee-replacement-bilateral/india"><li>Knee replacement- Bilateral</li></a><a href="https://www.vaidam.com/search/knock-knee-surgery/india"><li>Knock knee surgery</li></a><a href="https://www.vaidam.com/search/amputation-above-knee/india"><li>Amputation- Above Knee</li></a><a href="https://www.vaidam.com/search/amputation-below-knee/india"><li>Amputation- Below Knee</li></a></ul><b><br>Doctors related tokn (<a href="https://www.vaidam.com/listings/doctors/kn"> 3</a>) <br></b><ul><a href="https://www.vaidam.com/doctors/dr-prof-kn-srivastava-general-surgery?source=search"><li>Dr. (Prof.) K.N. Srivastava</li></a><a href="https://www.vaidam.com/doctors/dr-kn-srivastava?source=search"><li>Dr. K.N. Srivastava</li></a><a href="https://www.vaidam.com/doctors/dr-nagabhushan-kn?source=search"><li>Dr. Nagabhushan KN</li></a></ul></div>
           </div>
         </div>
@@ -711,6 +711,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
       <div class="row">
         <div class="container tophospital-grids text-center no-padding">
           <h2 class="top-hospitals">Know the Top hospitals</h2>
+          <h4 class="sub-heading-block"> Select Country</h4>
           <div class="col-md-2 col-xs-12 text-right mob-hide">
             <button onclick="displayBlock('top-hospitalsjs','india_hospitals', '', '','indiaselect','country-selection')" class="country-selection w3-btn w3-red indiaselect" style="background-color:#fff;">
             <div class="country-icon"><img src="img/india-icon.svg" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -722,7 +723,9 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </button>
           </div>
           <div class="col-md-2 col-xs-12 mob-hide">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphone">
+           
               <ul class="selected-cities top-hospitalsjs" id="india_hospitals">
                 <li class="hospital_city activecity" id="hc_gurgaon" style="background-color:#005897;"><a onclick="displayBlock('filtered-hospital','gurgaon_hospitals','hospital_city','gurgaon')">Gurgaon</a></li>
                 <li class="hospital_city" id="hc_newdelhi"><a onclick="displayBlock('filtered-hospital','delhi_hospitals','hospital_city','hc_newdelhi')">New Delhi</a></li>
@@ -755,6 +758,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
           </div>
           <div class="col-md-2 col-xs-12 desktop-hide mob-height">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphone">
               <div class="form-group">
                 <select class="form-control top-hospitalsjsmobile mob-listing-one" id="india_hospitalsmobile" onchange="displayBlock('filtered-hospital',this.value,'hospital_city','hc_mumbai')" >
@@ -821,50 +825,58 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in Gurgaon for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+<div class="col-md-2 col-xs-4 hos-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/gurgaon">Cardiology</a></h2>
-                </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                </div>                
+                <div class="col-md-2 col-xs-4 hos-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Best Cosmetic Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/gurgaon">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hos-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best cancer Hospitals in Gurgaon"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/india/gurgaon">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
+                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Orthopaedic Hospitals in Gurgaon"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/india/gurgaon">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
+                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Neurology Hospitals in Gurgaon"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/gurgaon">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/gurgaon">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Best Cardiology Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Best IVF Hospitals in Gurgaon" title="Best Cardiology Hospitals in Gurgaon"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/gurgaon">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/gurgaon">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/gurgaon">Check Best Hospitals in Gurgaon</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/gurgaon">See Best Hospitals in Gurgaon</a></h3>
             </div>
           </div>
           <div class="col-md-8 col-xs-12 filtered-hospital no-padding" id="mumbai_hospitals" style="display:none;">
@@ -913,8 +925,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in Mumbai for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+                <div class="col-md-2 col-xs-4 hospfor-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
@@ -922,41 +934,49 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/mumbai">Cardiology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Best Cosmetic Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/mumbai">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cancer Hospitals in Mumbai"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/india/mumbai">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
+                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Orthopaedic Hospitals in Mumbai"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/india/mumbai">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
+                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Neurology Hospitals in Mumbai"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/mumbai">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/mumbai">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Best Cardiology Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Best IVF Hospitals in Mumbai" title="Best Cardiology Hospitals in Mumbai"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/nephrology/india/mumbai">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/nephrology/india/mumbai">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/mumbai">Check Best Hospitals in Mumbai</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/mumbai">See Best Hospitals in Mumbai</a></h3>
             </div>
           </div>
           <div class="col-md-8 col-xs-12 filtered-hospital no-padding" id="delhi_hospitals" style="display: none">
@@ -1005,8 +1025,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in New Delhi for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
@@ -1014,41 +1034,49 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/new-delhi">Cardiology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Best Cosmetic Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/new-delhi">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cancer Hospitals in New Delhi"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/india/new-delhi">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
+                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Orthopaedic Hospitals in New Delhi"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/india/new-delhi">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
+                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Neurology Hospitals in New Delhi"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/new-delhi">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/new-delhi">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Best Cardiology Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Best IVF Hospitals in New Delhi" title="Best Cardiology Hospitals in New Delhi"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/new-delhi">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/new-delhi">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/new-delhi">Check Best Hospitals in New Delhi</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/new-delhi">See Best Hospitals in New Delhi</a></h3>
             </div>
           </div>
           
@@ -1098,8 +1126,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in Banglore for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
@@ -1107,41 +1135,49 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/bangalore">Cardiology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Best Cosmetic Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/bangalore">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cancer Hospitals in Banglore"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/india/bangalore">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
+                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Banglore" title="Best Orthopaedic Hospitals in Banglore"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/india/bangalore">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
+                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Banglore" title="Best Neurology Hospitals in Banglore"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/bangalore">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/bangalore">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Best Cardiology Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Best IVF Hospitals in Banglore" title="Best Cardiology Hospitals in Banglore"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/bangalore">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/bangalore">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/bangalore">Check Best Hospitals in Banglore</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/bangalore">See Best Hospitals in Banglore</a></h3>
             </div>
           </div>
           <div class="col-md-8 col-xs-12 filtered-hospital no-padding" id="chennai_hospitals" style="display: none">
@@ -1190,8 +1226,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in Chennai for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
@@ -1199,41 +1235,49 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/chennai">Cardiology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Best Cosmetic Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/india/chennai">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="img/cancer.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cancer Hospitals in Chennai"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/india/chennai">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
+                      <div class="department-icon6"><img src="img/orthopaedic.png" alt="Best Cardiology Hospitals in Chennai" title="Best Orthopaedic Hospitals in Chennai"></div>
                     </div>
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/india/chennai">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
+                      <div class="department-icon6"><img src="img/neuro-brain.png" alt="Best Cardiology Hospitals in Chennai" title="Best Neurology Hospitals in Chennai"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/chennai">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/india/chennai">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Best Cardiology Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Best IVF Hospitals in Chennai" title="Best Cardiology Hospitals in Chennai"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/chennai">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/india/chennai">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/chennai">Check Best Hospitals in Chennai</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/india/chennai">See Best Hospitals in Chennai</a></h3>
             </div>
           </div>
           
@@ -1285,8 +1329,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             <div class="clearfix"></div>
             <div>
               <h3 class="filter-hospitalfor-heading">Top Hospitals in Istanbul for</h3>
-              <div class="hospitalfor-grid">
-                <div class="col-md-2 col-xs-6 col-md-offset-1 hospitalfor-column no-padding">
+              <div class="hospfor-grid">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cardiology.png" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -1294,7 +1338,15 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/turkey">Cardiology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
+                  <div class="card department-grid">
+                    <div class="card-body">
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/Weight-Loss.jpg" alt="Medanta Medicity" title="Medanta Medicity"></div>
+                    </div>
+                  </div>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/cardiology-and-cardiac-surgery/turkey">Cosmetic and<br> Weight Loss</a></h2>
+                </div>
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/cancer.png" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -1302,7 +1354,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/oncology-and-oncosurgery/turkey">Cancer</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/orthopaedic.png" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -1310,25 +1362,25 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   </div>
                   <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/orthopedics/turkey">Orthopaedic</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
                       <div class="department-icon6"><img src="img/neuro-brain.png" alt="Medanta Medicity" title="Medanta Medicity"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/turkey">Neuro & Brain</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/neurology-and-neurosurgery/turkey">Neurology</a></h2>
                 </div>
-                <div class="col-md-2 col-xs-6 hospitalfor-column no-padding">
+                <div class="col-md-2 col-xs-4 hosp-column no-padding">
                   <div class="card department-grid">
                     <div class="card-body">
-                      <div class="department-icon6"><img src="img/weight-loss.png" alt="Medanta Medicity" title="Medanta Medicity"></div>
+                      <div class="department-icon6"><img src="https://www.vaidam.com/sites/all/themes/vaidam/v0/dist/img/IVF-and-fertility.jpg" alt="Medanta Medicity" title="Medanta Medicity"></div>
                     </div>
                   </div>
-                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/turkey">Weight Loss</a></h2>
+                  <h2 class="dept-name"><a href="https://www.vaidam.com/hospitals/obesity-or-bariatric-surgery-0/turkey">IVF</a></h2>
                 </div>
               </div>
               <div class="clearfix"></div>
-              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/turkey">Check Best Hospitals in Istanbul</a></h3>
+              <h3 class="check-hospital"><a href="https://www.vaidam.com/hospitals/turkey">See Best Hospitals in Istanbul</a></h3>
             </div>
           </div>
           
@@ -1341,6 +1393,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
       <div class="row">
         <div class="container pricing-grids text-center no-padding">
           <h2 class="top-pricing">Check cost of treatment and travel</h2>
+          <h4 class="sub-heading-block"> Select Country</h4>
           <div class="col-md-2 text-right mob-hide">
             <button class="country-selection w3-btn w3-red deptindiaselect" onclick="displayBlock('traveltreat','deptselect_india', '', '','deptindiaselect','country-selection')" style="background-color:#fff;">
             <div class="country-icon"><img src="img/india-icon.svg" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -1352,7 +1405,9 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </button>
           </div>
           <div class="col-md-2 col-xs-12 mob-hide">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphonetwo">
+            
               <ul class="selected-cities traveltreat" id="deptselect_india">
                 <li class="dept_cost activecity" id="dc_cardiology" style="background-color:#005897;"><a onclick="displayBlock('filtered-price','cardio_dept','dept_cost','dc_cardiology')">Cardiology</a></li>
                 <li class="dept_cost" id="dc_cancer"><a onclick="displayBlock('filtered-price','cancer_dept','dept_cost','dc_cancer')">Cancer</a></li>
@@ -1390,6 +1445,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
           </div>
           <div class="col-md-2 col-xs-12 desktop-hide mob-height">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphonetwo">
               <div class="form-group">
                 <select class="form-control mobile-selected-cities mob-listing-one" id="mobile-india_hospitals" onchange="displayBlock('filtered-price',this.value,'dept_cost','dc_cardiology')">
@@ -1969,6 +2025,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
       <div class="row">
         <div class="container doctors-grids text-center no-padding">
           <h2 class="top-doctors">Know the leading doctors</h2>
+          <h4 class="sub-heading-block"> Select Country</h4>
           <div class="col-md-2 text-right mob-hide">
             <button onclick="displayBlock('leadingdoc','doctors_india', '', '','deptindiaselectcount','country-selection')" class="country-selection w3-btn w3-red deptindiaselectcount" style="background-color:#fff;">
             <div class="country-icon"><img src="img/india-icon.svg" alt="Medanta Medicity" title="Medanta Medicity"></div>
@@ -1980,23 +2037,25 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </button>
           </div>
           <div class="col-md-2 mob-hide">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphonethree">
+            
               <ul class="selected-cities leadingdoc" id="doctors_india">
-                <li class="activecity" style="background-color:#005897;"><a onclick="displayBlock('filtered-doctors','cardio_dept_doc','dept_doc','doctor_cardiology')">Cardiologist</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','cancer_dept_doc','dept_doc','doctor_cancer')">Oncologist</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','ortho_dept_doc','dept_doc','doctor_ortho')">Orthopaedic</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','neuro_dept_doc','dept_doc','doctor_neuro')">Neuro Surgeon</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','gastro_dept_doc','dept_doc','doctor_gastro')">Gastrologist</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','spine_dept_doc','dept_doc','doctor_spine')">Spine Surgeon</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','cosmetic_dept_doc','dept_doc','doctor_cosmetic')">Cosmetic Surgeon</a></li>
+                <li class="activecity dept_doc" id="doctor_cardiology" style="background-color:#005897;"><a onclick="displayBlock('filtered-doctors','cardio_dept_doc','dept_doc','doctor_cardiology')">Cardiologist</a></li>
+                <li class="dept_doc" id="doctor_cancer"><a onclick="displayBlock('filtered-doctors','cancer_dept_doc','dept_doc','doctor_cancer')">Oncologist</a></li>
+                <li class="dept_doc" id="doctor_ortho"><a onclick="displayBlock('filtered-doctors','ortho_dept_doc','dept_doc','doctor_ortho')">Orthopaedic</a></li>
+                <li class="dept_doc" id="doctor_neuro"><a onclick="displayBlock('filtered-doctors','neuro_dept_doc','dept_doc','doctor_neuro')">Neuro Surgeon</a></li>
+                <li class="dept_doc" id="doctor_gastro"><a onclick="displayBlock('filtered-doctors','gastro_dept_doc','dept_doc','doctor_gastro')">Gastrologist</a></li>
+                <li class="dept_doc" id="doctor_spine"><a onclick="displayBlock('filtered-doctors','spine_dept_doc','dept_doc','doctor_spine')">Spine Surgeon</a></li>
+                <li class="dept_doc" id="doctor_cosmetic"><a onclick="displayBlock('filtered-doctors','cosmetic_dept_doc','dept_doc','doctor_cosmetic')">Cosmetic Surgeon</a></li>
               </ul>
             </div>
             <div class="no-padding w3-red citydiv" id="Athospitalthree">
               <ul class="selected-cities leadingdoc" id="doctors_turkey" style="display:none;">
-                <li><a onclick="displayBlock('filtered-doctors','cosmetic_dept_docturkey','dept_doc','doctor_ccosmeticturkey')">Cosmetic Surgeons</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','ortho_dept_docturkey','dept_doc','doctor_orthoturkey')">Orthopaedic Surgeons</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','cancer_dept_docturkey','dept_doc','doctor_cancerturkey')">Oncologist</a></li>
-                <li><a onclick="displayBlock('filtered-doctors','neuro_dept_docturkey','dept_doc','doctor_neuroturkey')">Neuro Surgeons</a></li>
+                <li class="dept_doc" id="doctor_ccosmeticturkey"><a onclick="displayBlock('filtered-doctors','cosmetic_dept_docturkey','dept_doc','doctor_ccosmeticturkey')">Cosmetic Surgeons</a></li>
+                <li class="dept_doc" id="doctor_orthoturkey"><a onclick="displayBlock('filtered-doctors','ortho_dept_docturkey','dept_doc','doctor_orthoturkey')">Orthopaedic Surgeons</a></li>
+                <li class="dept_doc" id="doctor_cancerturkey"><a onclick="displayBlock('filtered-doctors','cancer_dept_docturkey','dept_doc','doctor_cancerturkey')">Oncologist</a></li>
+                <li class="dept_doc" id="doctor_neuroturkey"><a onclick="displayBlock('filtered-doctors','neuro_dept_docturkey','dept_doc','doctor_neuroturkey')">Neuro Surgeons</a></li>
                 <!-- <li><a onclick="displayBlock('filtered-doctors','gastro_dept_docturkey','dept_doc','doctor_gastroturkey')">Gastro-Turkey</a></li> -->
               </ul>
             </div>
@@ -2016,6 +2075,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
           </div>
           <div class="col-md-2 col-xs-12 desktop-hide mob-height">
+          <h3 class="selec-city-btn">Select City</h3>
             <div class="w3-panel w3-red citydiv" id="Onphonethree">
               <div class="form-group">
                 <select class="form-control selectedmobile-cities mob-listing-one" id="mobiledoctors_india" onchange="displayBlock('filtered-doctors',this.value,'dept_doc','doctor_cardiology')">
@@ -2041,7 +2101,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="cardio_dept_doc">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="img/dr-ashok.jpg"> </div>
@@ -2053,7 +2113,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="img/dr-naresh-trehan.jpeg"> </div>
@@ -2065,7 +2125,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="img/dr_devi_prasad_shetty_.png"> </div>
@@ -2077,7 +2137,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="img/dr_sandeep_attawar.jpg"> </div>
@@ -2107,10 +2167,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <a href="https://www.vaidam.com/doctors/cardiology-and-cardiac-surgery/india/bangalore"><button class="city-dpt-doctors"> Bangalore <i class="fa fa-external-link"></i> </button></a>
             </div>
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cardiology-and-cardiac-surgery/india">See All Cardiac Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cardiology-and-cardiac-surgery/india">See All Cardiac Surgeons in India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="cancer_dept_doc" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-s-rajagopalan-seshadri-nephrologist.jpg"> </div>
@@ -2122,7 +2182,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._vijay_kher_-_nephrologist.jpg"> </div>
@@ -2134,7 +2194,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_suresh-min.jpg"> </div>
@@ -2146,7 +2206,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._arun_doshi_-_nephrologist.jpg"> </div>
@@ -2176,10 +2236,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <a href="https://www.vaidam.com/doctors/nephrology/india/hyderabad"><button class="city-dpt-doctors"> Hyderabad <i class="fa fa-external-link"></i> </button></a>
             </div>
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/nephrology/india">See All Nephrologist Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/nephrology/india">See All Nephrologist Surgeons In India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="ortho_dept_doc" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-ashok-rajgopal-nee-replacement-surgeon-medanta.jpg"> </div>
@@ -2191,7 +2251,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-ips-oberoi-orthopaedics_1.jpg"> </div>
@@ -2203,7 +2263,8 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="clearfix"></div>
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._ab_govind-min.jpg"> </div>
@@ -2215,7 +2276,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-rakesh-mahajan-orthopedics.jpg"> </div>
@@ -2245,11 +2306,11 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <a href=" https://www.vaidam.com/doctors/orthopedics/india/chennai"><button class="city-dpt-doctors"> Chennai <i class="fa fa-external-link"></i> </button></a>
             </div>
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/orthopedics/india">See All Orthopedics Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/orthopedics/india">See All Orthopedics Surgeons In India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="neuro_dept_doc" style="display:none;">
             
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-sandeep-vaishya-brain-tumours-neurology-neurosurgery-1.jpg"> </div>
@@ -2261,7 +2322,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-v-p-singh-neurosurgeon.jpg"> </div>
@@ -2273,7 +2334,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-chandran-gnanamuthu-neurologist_0.jpg"> </div>
@@ -2285,7 +2346,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._soundappan_v_-_neurosurgeon.jpg"> </div>
@@ -2315,10 +2376,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <a href="https://www.vaidam.com/doctors/neurology-and-neurosurgery/india/chennai"><button class="city-dpt-doctors"> Chennai <i class="fa fa-external-link"></i> </button></a>
             </div>
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/neurology-and-neurosurgery/india">See All Neuro Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/neurology-and-neurosurgery/india">See All Neuro Surgeons In India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="gastro_dept_doc" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._gaurav_mehta.jpg"> </div>
@@ -2330,7 +2391,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_v_baskaran.jpg"> </div>
@@ -2342,7 +2403,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-v-k-gupta.jpg"> </div>
@@ -2354,7 +2415,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_rakesh_tondon.jpg"> </div>
@@ -2384,10 +2445,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <a href="https://www.vaidam.com/doctors/gastroenterology/india/hyderabad"><button class="city-dpt-doctors"> Hyderabad <i class="fa fa-external-link"></i> </button></a>
             </div>
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/gastroenterology/india">See All Gastroenterologist</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/gastroenterology/india">See All Gastroenterologist In India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="spine_dept_doc" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/182-dr-rajagopalan-krishnan_03312016110618am.jpg"> </div>
@@ -2399,7 +2460,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/vineesh_mathur.jpg"> </div>
@@ -2411,7 +2472,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._sajan_k_hegde_-_spine_surgeon.jpg"> </div>
@@ -2423,7 +2484,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-vikas_gupte.jpg"> </div>
@@ -2455,10 +2516,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
             
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/spine-surgery/india">See All Spine Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/spine-surgery/india">See All Spine Surgeons In India</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="cosmetic_dept_doc" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr-vipul-nanda-cosmetic-surgery-2.jpg"> </div>
@@ -2470,7 +2531,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/avtar_singh_bath.jpg"> </div>
@@ -2482,7 +2543,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._a._sivakumar_-_cosmetic_reconstructive_surgeon.jpg"> </div>
@@ -2494,7 +2555,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._abbas_mistry_-_plastic_surgeon.jpg"> </div>
@@ -2526,13 +2587,13 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
             </div>
             
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cosmetic-and-plastic-surgery/india">See All Cosmetic Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cosmetic-and-plastic-surgery/india">See All Cosmetic Surgeons In India</a></h3>
           </div>
           
           <!--turkey-->
           
           <div class="col-md-8 col-xs-12 filtered-doctors" id="cosmetic_dept_docturkey" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_arda_katircioglu-min.jpg"> </div>
@@ -2544,7 +2605,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_mete_aksu-min.jpg"> </div>
@@ -2556,7 +2617,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/bulent-cihantimur-300x400-min.jpg"> </div>
@@ -2568,7 +2629,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._murat_polat.jpg"> </div>
@@ -2598,10 +2659,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <button class="city-dpt-doctors"> New Delhi <i class="fa fa-external-link"></i> </button>
             </div> -->
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cosmetic-and-plastic-surgery/turkey">See All Cosmetic Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/cosmetic-and-plastic-surgery/turkey">See All Cosmetic Surgeons In Turkey</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="ortho_dept_docturkey" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._mehmet_aydogan-min.jpg"> </div>
@@ -2613,7 +2674,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._gazi_huri-min.jpg"> </div>
@@ -2625,7 +2686,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._serdar_zengin-min.jpg"> </div>
@@ -2637,7 +2698,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._ahmet_murat_bulbul-orthopedician.jpg"> </div>
@@ -2667,10 +2728,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <button class="city-dpt-doctors"> New Delhi <i class="fa fa-external-link"></i> </button>
             </div> -->
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/orthopedics/turkey">See All Orthopedic Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/orthopedics/turkey">See All Orthopedic Surgeons In Turkey</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="cancer_dept_docturkey" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_hakan_karagol-min.jpg"> </div>
@@ -2682,7 +2743,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr_okan_kuzhan-min.jpg"> </div>
@@ -2694,7 +2755,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._fatih_agalar-min.jpg"> </div>
@@ -2706,7 +2767,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._ibrahim_tek-min.jpg"> </div>
@@ -2736,10 +2797,10 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <button class="city-dpt-doctors"> New Delhi <i class="fa fa-external-link"></i> </button>
             </div> -->
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/oncology-and-oncosurgery/turkey">See All Oncologist</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/oncology-and-oncosurgery/turkey">See All Oncologist In Turkey</a></h3>
           </div>
           <div class="col-md-8 col-xs-12 filtered-doctors" id="neuro_dept_docturkey" style="display:none;">
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._sait_sirin-min.jpg"> </div>
@@ -2751,7 +2812,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._sait_sirin-min.jpg"> </div>
@@ -2763,7 +2824,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._ali_savas-min.jpg"> </div>
@@ -2775,7 +2836,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12 mob-no-padding">
               <div class="panel panel-default top-doctor-customize">
                 <div class="panel-body no-padding">
                   <div class="col-md-3 col-sm-3 col-xs-5 no-padding"> <img class=" img-responsive top-doctor-img" src="https://www.vaidam.com/sites/default/files/dr._ersin_erdogan-min.jpg"> </div>
@@ -2805,7 +2866,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
               <button class="city-dpt-doctors"> New Delhi <i class="fa fa-external-link"></i> </button>
             </div> -->
             <div class="clearfix"></div>
-            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/neurology-and-neurosurgery/turkey">See All Neuro Surgeons</a></h3>
+            <h3 class="check-pricelist"><a href="https://www.vaidam.com/doctors/neurology-and-neurosurgery/turkey">See All Neuro Surgeons In Turkey</a></h3>
           </div>
           
           
@@ -2846,8 +2907,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                   <div class="img flyback"><img src="img/received-by-us.svg" alt=""></div>
                   </a> </div>
                 <div class="content-part">
-                  <p class="treatment-step">Get received by us <br>
-                    in India</p>
+                  <p class="treatment-step">Get received by us</p>
                 </div>
               </div>
               <div class="col-md-3 col-lg-3 col-sm-12 col-xs-6 welcome-grid text-center">
@@ -3273,7 +3333,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
               <div class="text-center">
-            <button class="more-doctors">VIEW MORE ARTICLES</button>
+            <button class="more-doctors" onclick="window.location.href ='https://www.vaidam.com/knowledge-center';">VIEW MORE ARTICLES</button>
           </div>
             </div>
             <div class="container-mob tab-pane fade" id="menuDoctors">
@@ -3314,7 +3374,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
                 </div>
               </div>
               <div class="text-center">
-            <button class="more-doctors">VIEW MORE DOCTOR VIDEOS</button>
+            <button class="more-doctors" onclick="window.location.href ='https://www.youtube.com/channel/UCHh2QDCBr0IxT67L_uyr5IQ/playlists';">VIEW MORE DOCTOR VIDEOS</button>
           </div>
             </div>
           </div>
@@ -3328,7 +3388,7 @@ a.gflag{vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-
       <div class="row">
         <div class="container speciality-grids text-center no-padding">
           <h2 class="featured-in-heading">Vaidam Featured In:</h2>
-          <div class="col-md-2 col-xs-6"> <img class="grayscale img-responsive" src="img/forbes.svg"> </div>
+          <div class="col-md-2 col-xs-6"> <img class="grayscale img-responsive" src="img/ivey.png"> </div>
           <div class="col-md-2 col-xs-6"> <img class="grayscale img-responsive" src="img/the-economic-times.svg"> </div>
           <div class="col-md-2 col-xs-6"> <img class="grayscale img-responsive" src="img/the-enterprise-of-healthcare.svg"> </div>
           <div class="col-md-2 col-xs-6"> <img class="grayscale img-responsive" src="img/yourstory.svg"> </div>
@@ -3457,7 +3517,6 @@ function myFunction() {
 }
 
 function displayBlock(className, idName, menuClass, menuId, selectedcountry, countryselection){
-alert(idName);
   $('.'+className).css("display","none");
    $('.'+countryselection).css({"background-color": "transparent"});
   $('.'+selectedcountry).css({"background-color": "#fff"});
